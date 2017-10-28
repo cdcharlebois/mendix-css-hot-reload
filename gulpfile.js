@@ -5,12 +5,12 @@ var gulp = require("gulp");
  */
 gulp.task("copy-css", function() {
     console.log("moving CSS files to deployment dir");
-    gulp.src(["theme/styles/css/**/*.css"])
-        .pipe(gulp.dest("deployment/web/styles/css"));
+    gulp.src(["../theme/styles/css/**/*.css"])
+        .pipe(gulp.dest("../deployment/web/styles/css"));
 });
 
 gulp.task("watch", function() {
-    gulp.watch(["theme/styles/css/**/*.css"], ["copy-css"]);
+    gulp.watch(["../theme/styles/css/**/*.css"], ["copy-css"]);
 });
 
 gulp.task("default", ["watch"]);
