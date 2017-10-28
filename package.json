@@ -1,0 +1,14 @@
+{
+    "name": "mendix-css-hot-reload",
+    "version": "1.0.0",
+    "description": "a little npm package to hot-reload sass changes so you don't have to reload the app every time",
+    "main": "gulpfile.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Conner Charlebois (Mendix)",
+    "license": "MIT",
+    "dependencies": {
+        "gulp": "^3.9.1"
+    }
+}
