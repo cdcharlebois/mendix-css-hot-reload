@@ -7,6 +7,10 @@
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "author": "Conner Charlebois (Mendix)",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/cdcharlebois/mendix-css-hot-reload.git"
+    },
     "license": "MIT",
     "dependencies": {
         "gulp": "^3.9.1"
