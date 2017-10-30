@@ -6,4 +6,6 @@ a little npm package to hot-reload sass changes so you don't have to reload the 
 4. run `gulp`.
 
 or, if you're feeling risky, run this in your project root:
-`git clone https://github.com/cdcharlebois/mendix-css-hot-reload.git; cd mendix-css-hot-reload; npm install; gulp;`
+```sh
+git clone https://github.com/cdcharlebois/mendix-css-hot-reload.git; cd mendix-css-hot-reload; npm install; gulp;
+```
