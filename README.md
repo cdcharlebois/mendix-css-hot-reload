@@ -7,5 +7,8 @@ a little npm package to hot-reload sass changes so you don't have to reload the 
 
 or, if you're feeling risky, run this in your project root:
 ```sh
-git clone https://github.com/cdcharlebois/mendix-css-hot-reload.git; cd mendix-css-hot-reload; npm install; gulp;
+git clone https://github.com/cdcharlebois/mendix-css-hot-reload.git; 
+cd mendix-css-hot-reload; 
+npm install; 
+gulp;
 ```
