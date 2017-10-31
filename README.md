@@ -4,13 +4,12 @@ a little npm package to hot-reload sass changes so you don't have to reload the 
 2. `cd` into the `mendix-css-hot-reload` directory.
 3. run `npm install`.
 4. run `gulp`.
+5. Remove the `mendix-css-hot-reload` directory from versioning by right-clicking the folder and choosing **Tortoise SVN > Add to ignore list > mendix-css-hot-reload**
 
-or, if you're feeling risky, run this in your project root:
+Or run this in your project root, and then remove the `mendix-css-hot-reload` directory from versioning by right-clicking the folder and choosing **Tortoise SVN > Add to ignore list > mendix-css-hot-reload**:
 ```sh
 git clone https://github.com/cdcharlebois/mendix-css-hot-reload.git
 cd mendix-css-hot-reload 
 npm install 
-gulp
+gulp;
 ```
-
-**NOTE: Always remember to stop gulp before committing your project to the Team Server. If you don't, gulp will still have a lock on some files in the `node_modules` directory and break your SVN repo structure.**
